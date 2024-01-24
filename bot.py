@@ -1,5 +1,6 @@
 import os
 import logging
+import pyrogram
 from config import Config
 from pyrogram import Client as Tech_VJ
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
